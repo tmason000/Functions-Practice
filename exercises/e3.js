@@ -16,6 +16,17 @@
 // Your code goes here...
 
 
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] > val1 && arr[i] < val2){
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5));
+console.log(doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10));
 
 /**
  * ====================================================
@@ -32,6 +43,40 @@
  */
 
 
+// Named Function 
+
+function getValueWithConditionOne(num1, num2){
+  if (num1 && num2 === 40) {
+    return num1 + num2; 
+  } else {
+    return (num1 * 2) + (num2 * 2);
+  }
+}
+
+console.log(getValueWithConditionOne(20, 20));
+
+
+//  Arrow Function
+let getValueWithConditionTwo = (num1, num2) => {
+  if (num1 && num2 === 40) {
+    return num1 + num2; 
+  } else {
+    return (num1 * 2) + (num2 * 2);
+  }
+}
+
+console.log(getValueWithConditionTwo(20, 20));
+
+// Function Expression
+let getValueWithConditionThree = function(num1, num2) {
+  if (num1 && num2 === 40) {
+    return num1 + num2; 
+  } else {
+    return (num1 * 2) + (num2 *2);
+  }
+}
+
+console.log(getValueWithConditionThree(20, 20));
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-3"

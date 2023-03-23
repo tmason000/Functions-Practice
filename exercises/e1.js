@@ -13,7 +13,11 @@
 
 // Your code goes here
 
+function logMessage(){
+  console.log('Hello, World!');
+}
 
+logMessage();
 
 /**
  * =============================================================
@@ -27,6 +31,12 @@
 
 // Your code goes here...
 
+function logMyMessage(myMessage){
+  console.log(myMessage);
+}
+
+logMyMessage('I log my first message!');
+
 
 
 /**
@@ -38,7 +48,14 @@
  * logMessageWithMyName('Andrey') => 'My name is Andrey!'
 */
 
+
 // Your code goes here...
+
+function logMessageWithMyName(myName){
+  console.log(`My name is ${myName}!`);
+};
+
+logMessageWithMyName("tiff");
 
 
 
@@ -54,7 +71,11 @@
 
 // Your code goes here...
 
+function logMyInfo(myName, myAge){
+  console.log(`My name is ${myName}. I am ${myAge} years old!`);
+};
 
+logMyInfo('Tiff', 30);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
