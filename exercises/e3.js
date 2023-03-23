@@ -51,10 +51,11 @@ console.log(doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10));
 
 // Named Function 
 
-function getValueWithConditionOne(num1, num2){
+function getValueWithConditionOne(num1, num2) {
   if (num1 === 40 && num2 === 40) {
     return num1 + num2; 
-  } return (num1 + num2) * 2;
+  } 
+  return (num1 + num2) * 2;
 }
 
 
@@ -63,7 +64,8 @@ function getValueWithConditionOne(num1, num2){
 let getValueWithConditionTwo = (num1, num2) => {
   if (num1 === 40 && num2 === 40) {
     return num1 + num2; 
-  } return (num1 + num2) * 2;
+  } 
+  return (num1 + num2) * 2;
 }
 
 
@@ -72,7 +74,8 @@ let getValueWithConditionTwo = (num1, num2) => {
 let getValueWithConditionThree = function(num1, num2) {
   if (num1 === 40 && num2 === 40) {
     return num1 + num2; 
-  } return (num1 + num2) * 2;
+  } 
+  return (num1 + num2) * 2;
 }
 
 

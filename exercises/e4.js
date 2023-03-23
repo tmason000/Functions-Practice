@@ -61,7 +61,7 @@ console.log(isNameInArray(['John', 'Michael', 'Andrey'], 'Michael'))
 
 const logSecondsUpToMax = (max) => {
   let i = 0;
-  const timer = setInterval(function () {
+  const timer = setInterval( () => {
     if (i < max) {
       console.log(++i);
     } else {

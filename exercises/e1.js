@@ -57,7 +57,7 @@ logMyMessage('I log my first message!');
 
 // Your code goes here...
 
-function logMessageWithMyName(myName){
+function logMessageWithMyName(myName) {
   console.log(`My name is ${myName}!`);
 };
 
@@ -79,7 +79,7 @@ logMessageWithMyName("tiff");
 
 // Your code goes here...
 
-function logMyInfo(myName, myAge){
+function logMyInfo(myName, myAge) {
   console.log(`My name is ${myName}. I am ${myAge} years old!`);
 };
 

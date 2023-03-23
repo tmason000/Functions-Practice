@@ -16,7 +16,7 @@ const getDiffTwentySeven = (num) => {
   if(num > 27) {
     return ((num - 27) * 2);
   } 
-    return 27 - num;
+  return 27 - num;
 }
 
 
@@ -33,7 +33,8 @@ const getDiffTwentySeven = (num) => {
 const sumOfTwoIntegers = (num1, num2) => {
   if (num1 === num2){
     return (num1 + num2) * 3
-  } return num1 + num2
+  } 
+  return num1 + num2
 }
 
 
